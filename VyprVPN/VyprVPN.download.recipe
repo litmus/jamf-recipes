@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of VyprVPN.</string>
 	<key>Identifier</key>
-	<string>com.github.litmus.itoperations.jamf-recipes.download.VyprVPN</string>
+	<string>com.github.litmus.jamf-recipes.download.VyprVPN</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the current release version of Microsoft AutoUpdate and extracts the version information from the installer package.</string>
       <key>Identifier</key>
-      <string>com.github.litmus.itoperations.jamf-recipes.pkg.AutoUpdate</string>
+      <string>com.github.litmus.jamf-recipes.pkg.AutoUpdate</string>
       <key>Input</key>
       <dict>
          <key>NAME</key>
@@ -20,7 +20,7 @@
       <key>MinimumVersion</key>
       <string>1.0.0</string>
       <key>ParentRecipe</key>
-      <string>com.github.litmus.itoperations.jamf-recipes.download.AutoUpdate</string>
+      <string>com.github.litmus.jamf-recipes.download.AutoUpdate</string>
       <key>Process</key>
       <array>
          <dict>

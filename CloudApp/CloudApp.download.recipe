@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest version of CloudApp.</string>
     <key>Identifier</key>
-    <string>com.github.litmus.itoperations.jamf-recipes.download.CloudApp</string>
+    <string>com.github.litmus.jamf-recipes.download.CloudApp</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

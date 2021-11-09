@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of GitHub Desktop.</string>
 	<key>Identifier</key>
-	<string>com.github.litmus.itoperations.jamf-recipes.download.GitHubDesktop-m1</string>
+	<string>com.github.litmus.jamf-recipes.download.GitHubDesktop-m1</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

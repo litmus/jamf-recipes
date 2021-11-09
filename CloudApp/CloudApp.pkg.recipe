@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest version of CloudApp and creates a package. We use the Sparkle feed URL as the vendor supplied package has a different version number than the app bundle and contains postinstall scripts and an auto-update script that does not behave.</string>
     <key>Identifier</key>
-    <string>com.github.litmus.itoperations.jamf-recipes.pkg.CloudApp</string>
+    <string>com.github.litmus.jamf-recipes.pkg.CloudApp</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -14,7 +14,7 @@
     <key>MinimumVersion</key>
     <string>1.0.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.litmus.itoperations.jamf-recipes.download.CloudApp</string>
+    <string>com.github.litmus.jamf-recipes.download.CloudApp</string>
     <key>Process</key>
     <array>
         <dict>

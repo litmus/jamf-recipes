@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Postman.</string>
 	<key>Identifier</key>
-	<string>com.github.litmus.itoperations.jamf-recipes.download.Postman</string>
+	<string>com.github.litmus.jamf-recipes.download.Postman</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

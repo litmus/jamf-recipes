@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the latest version of Microsoft's Remote Desktop installer package and renames the package.</string>
       <key>Identifier</key>
-      <string>com.github.litmus.itoperations.jamf-recipes.pkg.RemoteDesktop</string>
+      <string>com.github.litmus.jamf-recipes.pkg.RemoteDesktop</string>
       <key>Input</key>
       <dict>
          <key>NAME</key>
@@ -22,7 +22,7 @@
       <key>MinimumVersion</key>
       <string>1.0.0</string>
       <key>ParentRecipe</key>
-      <string>com.github.litmus.itoperations.jamf-recipes.download.RemoteDesktop</string>
+      <string>com.github.litmus.jamf-recipes.download.RemoteDesktop</string>
       <key>Process</key>
       <array>
          <dict>

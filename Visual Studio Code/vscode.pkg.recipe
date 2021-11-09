@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Identifier</key>
-    <string>com.github.litmus.itoperations.jamf-recipes.pkg.vscode</string>
+    <string>com.github.litmus.jamf-recipes.pkg.vscode</string>
     <key>Description</key>
     <string>Downloads latest Visual Studio Code zip using the parent recipe builds a package.
     </string>
@@ -13,7 +13,7 @@
         <string>Visual Studio Code</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.litmus.itoperations.jamf-recipes.download.vscode</string>
+    <string>com.github.litmus.jamf-recipes.download.vscode</string>
     <key>Process</key>
     <array>
         <dict>

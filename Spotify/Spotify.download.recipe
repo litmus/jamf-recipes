@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Spotify.</string>
     <key>Identifier</key>
-    <string>com.github.litmus.itoperations.jamf-recipes.download.Spotify</string>
+    <string>com.github.litmus.jamf-recipes.download.Spotify</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

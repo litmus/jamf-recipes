@@ -6,7 +6,7 @@ Description: |
   - 532577 for Asia
   - 871743 for Office 2016
   - 2009112 for Office365 Business Pro (includes Teams)
-Identifier: com.github.litmus.itoperations.jamf-recipes.download.Office365
+Identifier: com.github.litmus.jamf-recipes.download.Office365
 MinimumVersion: "2.3"
 
 Input:

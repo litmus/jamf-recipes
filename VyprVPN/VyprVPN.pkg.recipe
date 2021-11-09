@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of VyprVPN and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.litmus.itoperations.jamf-recipes.pkg.VyprVPN</string>
+	<string>com.github.litmus.jamf-recipes.pkg.VyprVPN</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.4.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.litmus.itoperations.jamf-recipes.download.VyprVPN</string>
+	<string>com.github.litmus.jamf-recipes.download.VyprVPN</string>
 	<key>Process</key>
 	<array>
 		<dict>

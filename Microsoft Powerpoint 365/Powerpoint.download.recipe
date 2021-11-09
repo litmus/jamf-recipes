@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the latest Microsoft PowerPoint installer package for Office 365.</string>
       <key>Identifier</key>
-      <string>com.github.litmus.itoperations.jamf-recipes.download.Powerpoint</string>
+      <string>com.github.litmus.jamf-recipes.download.Powerpoint</string>
       <key>MinimumVersion</key>
       <string>1.0.0</string>
       <key>Input</key>
