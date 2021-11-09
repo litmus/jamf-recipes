@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>recipes</key>
+    <array>
+        <string>Asana-pkg-upload.jamf.recipe.yaml</string>
+        <string>Atom-pkg-upload.jamf.recipe.yaml</string>
+        <string>GoogleChrome-m1-pkg-upload.jamf.recipe.yaml</string>
+        <string>GoogleChrome-intel-pkg-upload.jamf.recipe.yaml</string>
+        <string>Docker-m1-pkg-upload.jamf.recipe.yaml</string>
+        <string>Docker-intel-pkg-upload.jamf.recipe.yaml</string>
+        <string>Evernote-pkg-upload.jamf.recipe.yaml</string>
+        <string>Firefox-pkg-upload.jamf.recipe.yaml</string>
+        <string>GitHubDesktop-m1-pkg-upload.jamf.recipe.yaml</string>
+        <string>GitHubDesktop-intel-pkg-upload.jamf.recipe.yaml</string>
+        <string>GoogleDrive-pkg-upload.jamf.recipe.yaml</string>
+        <string>KiwiforGmail-pkg-upload.jamf.recipe.yaml</string>
+        <string>Postman-pkg-upload.jamf.recipe.yaml</string>
+        <string>Slack-m1-pkg-upload.jamf.recipe.yaml</string>
+        <string>Slack-intel-pkg-upload.jamf.recipe.yaml</string>
+        <string>VyprVPN-pkg-upload.jamf.recipe.yaml</string>
+        <string>zoom-pkg-upload.jamf.recipe.yaml</string>
+        <string>AdobeCreativeCloud-AppleSilicon-pkg-upload.jamf.recipe.yaml</string>
+        <string>AdobeCreativeCloud-Intel-pkg-upload.jamf.recipe.yaml</string>
+        <string>AutoUpdate-pkg-upload.jamf.recipe.yaml</string>
+        <string>Excel-pkg-upload.jamf.recipe.yaml</string>
+        <string>Word-pkg-upload.jamf.recipe.yaml</string>
+        <string>Powerpoint-pkg-upload.jamf.recipe.yaml</string>
+        <string>Office365-pkg-upload.jamf.recipe.yaml</string>
+        <string>Outlook-pkg-upload.jamf.recipe.yaml</string>
+        <string>RemoteDesktop-pkg-upload.jamf.recipe.yaml</string>
+        <string>Spotify-pkg-upload.jamf.recipe.yaml</string>
+        <string>vscode-pkg-upload.jamf.recipe.yaml</string>
+        <string>1Password-pkg-upload.jamf.recipe.yaml</string>
+        <string>CloudApp-pkg-upload.jamf.recipe.yaml</string>
+    </array>
+</dict>
+</plist>
