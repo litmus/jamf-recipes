@@ -4,7 +4,7 @@ MinimumVersion: "2.3"
 ParentRecipe: com.github.litmus.jamf-recipes.pkg.AdobeCreativeCloud-Intel
 
 Input:
-  NAME: Adobe Creative Cloud - Intel
+  NAME: Adobe Creative Cloud-Intel
   GROUP_NAME: "%NAME%-testing-smartgroup"
   TESTING_GROUP_NAME: Testing
   GROUP_TEMPLATE: SmartGroup-create-template.xml

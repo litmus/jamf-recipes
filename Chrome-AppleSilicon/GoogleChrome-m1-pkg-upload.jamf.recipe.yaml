@@ -4,7 +4,7 @@ MinimumVersion: "2.3"
 ParentRecipe: com.github.litmus.jamf-recipes.pkg.Chrome-m1
 
 Input:
-  NAME: Google Chrome - Apple Silicon
+  NAME: Google Chrome-Apple Silicon
   GROUP_NAME: "%NAME%-testing-smartgroup"
   TESTING_GROUP_NAME: Testing
   GROUP_TEMPLATE: SmartGroup-create-template.xml

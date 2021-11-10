@@ -11,9 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>GitHub Desktop</string>
-		<key>CHIP</key>
-		<string>Intel</string>
+		<string>GitHub Desktop-Intel</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
@@ -27,7 +25,7 @@
 				<key>app_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%/GitHub Desktop.app</string>
 				<key>pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%-%version%-%CHIP%.pkg</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>AppPkgCreator</string>

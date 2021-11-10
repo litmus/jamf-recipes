@@ -4,7 +4,7 @@ MinimumVersion: "2.3"
 ParentRecipe: com.github.litmus.jamf-recipes.pkg.GitHubDesktop-m1
 
 Input:
-  NAME: GitHub Desktop - Apple Silicon
+  NAME: GitHub Desktop-Apple Silicon
   GROUP_NAME: "%NAME%-testing-smartgroup"
   TESTING_GROUP_NAME: Testing
   GROUP_TEMPLATE: SmartGroup-create-template.xml
