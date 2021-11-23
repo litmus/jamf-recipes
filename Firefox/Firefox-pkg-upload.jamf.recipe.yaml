@@ -17,7 +17,7 @@ Input:
     Test for Latest %NAME%, Version: %version%
   SELF_SERVICE_ICON: test.png
   INSTALL_BUTTON_TEXT: "Test %version%"
-  REINSTALL_BUTTON_TEXT: "Retest %version%"
+  REINSTALL_BUTTON_TEXT: "Test %version%"
 
 
 Process:   
