@@ -27,7 +27,6 @@ Input:
   SELF_SERVICE_ICON: test.png #Using a generic image for all testing policies. This image lives in /Icons/
   INSTALL_BUTTON_TEXT: "Test %version%" #This will display the version of the app you're about to test. 
   REINSTALL_BUTTON_TEXT: "Test %version%" #^^^
-  replace_policy: "True" #This set to true allows the policy to be recreated when a new version of the app is available to test. If false, it would fail. 
 
 
 Process:   
@@ -45,3 +44,4 @@ Process:
         policy_template: "%POLICY_TEMPLATE%" #Uses the Policy Template specified under Input
         policy_name: "%POLICY_NAME%" #Uses the Policy Name specified under Input
         icon: "%SELF_SERVICE_ICON%" #Uses the Policy Icon specified under Input
+        replace_policy: "True" #This set to true allows the policy to be recreated when a new version of the app is available to test. If false, it would fail. 

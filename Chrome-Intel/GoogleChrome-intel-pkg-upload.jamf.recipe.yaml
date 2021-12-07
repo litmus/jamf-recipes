@@ -18,7 +18,7 @@ Input:
   SELF_SERVICE_ICON: test.png
   INSTALL_BUTTON_TEXT: "Test %version%"
   REINSTALL_BUTTON_TEXT: "Test %version%"
-  replace_policy: "True"
+
 
 
 Process:   
@@ -36,3 +36,4 @@ Process:
         policy_template: "%POLICY_TEMPLATE%"
         policy_name: "%POLICY_NAME%"
         icon: "%SELF_SERVICE_ICON%"
+        replace_policy: "True"
