@@ -18,7 +18,7 @@ Input:
   SELF_SERVICE_ICON: test.png
   INSTALL_BUTTON_TEXT: "Test %version%"
   REINSTALL_BUTTON_TEXT: "Test %version%"
-  replace_policy: "True"
+  REPLACE_POLICY: "True"
 
 
 Process:   
