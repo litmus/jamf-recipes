@@ -26,8 +26,6 @@
 				<string>version</string>
 				<key>url</key>
 				<string>https://www.vyprvpn.com/vpn-apps/vpn-for-mac</string>
-				<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-				<true/>
 			</dict>
 			<key>Processor</key>
 			<string>URLTextSearcher</string>
@@ -57,6 +55,8 @@
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
+			<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Arguments</key>
