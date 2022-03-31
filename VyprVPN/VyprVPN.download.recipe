@@ -59,8 +59,6 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-				<string>True</string>
 				<key>input_plist_path</key>
 				<string>%pathname%/VyprVPN.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
