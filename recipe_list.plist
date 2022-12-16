@@ -15,7 +15,6 @@
         <string>GitHubDesktop-m1-pkg-upload.jamf.recipe.yaml</string>
         <string>GitHubDesktop-intel-pkg-upload.jamf.recipe.yaml</string>
         <string>GoogleDrive-pkg-upload.jamf.recipe.yaml</string>
-        <string>KiwiforGmail-pkg-upload.jamf.recipe.yaml</string>
         <string>Postman-pkg-upload.jamf.recipe.yaml</string>
         <string>Slack-m1-pkg-upload.jamf.recipe.yaml</string>
         <string>Slack-intel-pkg-upload.jamf.recipe.yaml</string>
