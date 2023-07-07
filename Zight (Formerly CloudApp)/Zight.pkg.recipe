@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of CloudApp and creates a package. We use the Sparkle feed URL as the vendor supplied package has a different version number than the app bundle and contains postinstall scripts and an auto-update script that does not behave.</string>
+    <string>Downloads the latest version of Zight and creates a package. We use the Sparkle feed URL as the vendor supplied package has a different version number than the app bundle and contains postinstall scripts and an auto-update script that does not behave.</string>
     <key>Identifier</key>
-    <string>com.github.litmus.jamf-recipes.pkg.CloudApp</string>
+    <string>com.github.litmus.jamf-recipes.pkg.Zight</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>CloudApp</string>
+        <string>Zight</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.0.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.litmus.jamf-recipes.download.CloudApp</string>
+    <string>com.github.litmus.jamf-recipes.download.Zight</string>
     <key>Process</key>
     <array>
         <dict>
@@ -23,7 +23,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%RECIPE_CACHE_DIR%/Applications/CloudApp.app/Contents/Info.plist</string>
+                <string>%RECIPE_CACHE_DIR%/Applications/Zight.app/Contents/Info.plist</string>
                 <key>plist_version_key</key>
                 <string>CFBundleShortVersionString</string>
             </dict>
@@ -34,7 +34,7 @@
             <key>Arguments</key>
             <dict>
                 <key>app_path</key>
-                <string>%RECIPE_CACHE_DIR%/Applications/CloudApp.app</string>
+                <string>%RECIPE_CACHE_DIR%/Applications/Zight.app</string>
                 <key>pkg_path</key>
                 <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
             </dict>

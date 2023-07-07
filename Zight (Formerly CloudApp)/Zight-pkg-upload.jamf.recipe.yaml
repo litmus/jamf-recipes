@@ -1,10 +1,10 @@
 Description: Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server
-Identifier: com.github.litmus.jamf-recipes.jamf.CloudApp-pkg-upload
+Identifier: com.github.litmus.jamf-recipes.jamf.Zight-pkg-upload
 MinimumVersion: "2.3"
-ParentRecipe: com.github.litmus.jamf-recipes.pkg.CloudApp
+ParentRecipe: com.github.litmus.jamf-recipes.pkg.Zight
 
 Input:
-  NAME: CloudApp
+  NAME: Zight (Formerly CloudApp)
   GROUP_NAME: "%NAME%-testing-smartgroup"
   TESTING_GROUP_NAME: Testing
   GROUP_TEMPLATE: SmartGroup-create-template.xml

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of CloudApp.</string>
+    <string>Downloads the latest version of Zight (Formerly CloudApp).</string>
     <key>Identifier</key>
-    <string>com.github.litmus.jamf-recipes.download.CloudApp</string>
+    <string>com.github.litmus.jamf-recipes.download.Zight</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>CloudApp</string>
+        <string>Zight</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.0.0</string>
@@ -21,7 +21,7 @@
             <key>Arguments</key>
             <dict>
                 <key>appcast_url</key>
-                <string>https://d2plwz9jdz9z5d.cloudfront.net/mac/latest/appcast.xml</string>
+                <string>https://d2plwz9jdz9z5d.cloudfront.net/mac/latest/Zight.pkg</string>
             </dict>
         </dict>
         <dict>
@@ -51,7 +51,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_path</key>
-                <string>%RECIPE_CACHE_DIR%/Applications/CloudApp.app</string>
+                <string>%RECIPE_CACHE_DIR%/Applications/Zight.app</string>
                 <key>requirement</key>
                 <string>anchor apple generic and identifier "com.linebreak.CloudAppMacOSX" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = DCMDDJEW9X)</string>
             </dict>
