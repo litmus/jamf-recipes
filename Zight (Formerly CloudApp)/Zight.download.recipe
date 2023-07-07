@@ -48,33 +48,7 @@
                 </dict>
             </dict>
             <dict>
-                <key>Processor</key>
-                <string>PkgPayloadUnpacker</string>
                 <key>Arguments</key>
-                <dict>
-                    <key>pkg_payload_path</key>
-                    <string>%RECIPE_CACHE_DIR%/expand/Zight.pkg/Payload</string>
-                    <key>destination_path</key>
-                    <string>%RECIPE_CACHE_DIR%/unpack</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>Processor</key>
-                <string>PkgCopier</string>
-                <key>Arguments</key>
-                <dict>
-                    <key>source_pkg</key>
-                    <string>%pathname%</string>
-                    <key>pkg_path</key>
-                    <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>Arguments</key>
-                <dict>
-                    <key>input_path</key>
-                    <string>%pathname%</string>
-                </dict>
                 <key>Processor</key>
                 <string>CodeSignatureVerifier</string>
                 <key>Arguments</key>
