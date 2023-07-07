@@ -64,7 +64,7 @@
                 <key>Arguments</key>
                 <dict>
                     <key>input_plist_path</key>
-                    <string>%RECIPE_CACHE_DIR%/unpack/Zight.pkg/Contents/Packageinfo</string>
+                    <string>%RECIPE_CACHE_DIR%/expand/Zight.pkg/Contents/Packageinfo</string>
                     <key>plist_version_key</key>
                     <string>version</string>
                 </dict>
