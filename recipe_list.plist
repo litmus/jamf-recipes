@@ -32,7 +32,6 @@
         <string>Spotify-pkg-upload.jamf.recipe.yaml</string>
         <string>vscode-pkg-upload.jamf.recipe.yaml</string>
         <string>1Password-pkg-upload.jamf.recipe.yaml</string>
-        <string>Zight-pkg-upload.jamf.recipe.yaml</string>
     </array>
 </dict>
 </plist>
