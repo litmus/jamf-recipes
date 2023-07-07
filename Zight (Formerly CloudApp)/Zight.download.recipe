@@ -53,7 +53,7 @@
                 <key>Arguments</key>
                 <dict>
                     <key>pkg_payload_path</key>
-                    <string>%RECIPE_CACHE_DIR%/expand/Zight.pkg/Payload</string>
+                    <string>%RECIPE_CACHE_DIR%/expand/Zight.pkg</string>
                     <key>destination_path</key>
                     <string>%RECIPE_CACHE_DIR%/unpack</string>
                 </dict>
@@ -64,7 +64,7 @@
                 <key>Arguments</key>
                 <dict>
                     <key>input_plist_path</key>
-                    <string>%RECIPE_CACHE_DIR%/expand/Zight.pkg/Packageinfo</string>
+                    <string>%RECIPE_CACHE_DIR%/unpack/Zight.pkg/Packageinfo</string>
                     <key>plist_version_key</key>
                     <string>version</string>
                 </dict>
