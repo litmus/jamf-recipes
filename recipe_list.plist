@@ -4,7 +4,6 @@
 <dict>
     <key>recipes</key>
     <array>
-        <string>Asana-pkg-upload.jamf.recipe.yaml</string>
         <string>Atom-pkg-upload.jamf.recipe.yaml</string>
         <string>GoogleChrome-m1-pkg-upload.jamf.recipe.yaml</string>
         <string>GoogleChrome-intel-pkg-upload.jamf.recipe.yaml</string>
