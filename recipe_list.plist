@@ -11,16 +11,12 @@
         <string>Docker-intel-pkg-upload.jamf.recipe.yaml</string>
         <string>Evernote-pkg-upload.jamf.recipe.yaml</string>
         <string>Firefox-pkg-upload.jamf.recipe.yaml</string>
-        <string>GitHubDesktop-m1-pkg-upload.jamf.recipe.yaml</string>
-        <string>GitHubDesktop-intel-pkg-upload.jamf.recipe.yaml</string>
         <string>GoogleDrive-pkg-upload.jamf.recipe.yaml</string>
         <string>Postman-pkg-upload.jamf.recipe.yaml</string>
         <string>Slack-m1-pkg-upload.jamf.recipe.yaml</string>
         <string>Slack-intel-pkg-upload.jamf.recipe.yaml</string>
         <string>VyprVPN-pkg-upload.jamf.recipe.yaml</string>
         <string>zoom-pkg-upload.jamf.recipe.yaml</string>
-        <string>AdobeCreativeCloud-AppleSilicon-pkg-upload.jamf.recipe.yaml</string>
-        <string>AdobeCreativeCloud-Intel-pkg-upload.jamf.recipe.yaml</string>
         <string>AutoUpdate-pkg-upload.jamf.recipe.yaml</string>
         <string>Excel-pkg-upload.jamf.recipe.yaml</string>
         <string>Word-pkg-upload.jamf.recipe.yaml</string>
