@@ -4,7 +4,7 @@ MinimumVersion: "2.3"
 ParentRecipe: com.github.litmus.jamf-recipes.pkg.Office365
 
 Input:
-  NAME: Micorosoft Office 365 - All Apps
+  NAME: Microsoft Office 365 - All Apps
   GROUP_NAME: "%NAME%-testing-smartgroup"
   TESTING_GROUP_NAME: Testing
   GROUP_TEMPLATE: SmartGroup-create-template.xml
