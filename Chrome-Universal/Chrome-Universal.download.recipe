@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Chrome.</string>
 	<key>Identifier</key>
-	<string>com.github.litmus.jamf-recipes.download.Chrome-intel</string>
+	<string>com.github.litmus.jamf-recipes.download.Chrome-Universal</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -25,7 +25,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg</string>
+				<string>https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
@@ -39,8 +39,10 @@
 			<dict>
 				<key>input_path</key>
 				<string>%pathname%/Google Chrome.app</string>
+				<key>strict_verification</key>
+                <false/>
 				<key>requirement</key>
-				<string>(identifier "com.google.Chrome" or identifier "com.google.Chrome.beta" or identifier "com.google.Chrome.dev" or identifier "com.google.Chrome.canary") and certificate leaf = H"c9a99324ca3fcb23dbcc36bd5fd4f9753305130a"</string>
+				<string>(identifier "com.google.Chrome" or identifier "com.google.Chrome.beta" or identifier "com.google.Chrome.dev" or identifier "com.google.Chrome.canary") and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EQHXZ8M8AV</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>

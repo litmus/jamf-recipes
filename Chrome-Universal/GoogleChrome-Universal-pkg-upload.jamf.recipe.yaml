@@ -1,10 +1,10 @@
 Description: Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server
-Identifier: com.github.litmus.jamf-recipes.jamf.GoogleChrome-intel-pkg-upload
+Identifier: com.github.litmus.jamf-recipes.jamf.GoogleChrome-Universal-pkg-upload
 MinimumVersion: "2.3"
-ParentRecipe: com.github.litmus.jamf-recipes.pkg.Chrome-intel
+ParentRecipe: com.github.litmus.jamf-recipes.pkg.Chrome-Universal
 
 Input:
-  NAME: Google Chrome-Intel
+  NAME: Google Chrome-Universal
   GROUP_NAME: "%NAME%-testing-smartgroup"
   TESTING_GROUP_NAME: Testing
   GROUP_TEMPLATE: SmartGroup-create-template.xml
@@ -18,7 +18,6 @@ Input:
   SELF_SERVICE_ICON: test.png
   INSTALL_BUTTON_TEXT: "Test %version%"
   REINSTALL_BUTTON_TEXT: "Test %version%"
-
 
 
 Process:   

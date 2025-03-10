@@ -5,8 +5,7 @@
     <key>recipes</key>
     <array>
         <string>Atom-pkg-upload.jamf.recipe.yaml</string>
-        <string>GoogleChrome-m1-pkg-upload.jamf.recipe.yaml</string>
-        <string>GoogleChrome-intel-pkg-upload.jamf.recipe.yaml</string>
+        <string>GoogleChrome-Universal-pkg-upload.jamf.recipe.yaml</string>
         <string>Docker-m1-pkg-upload.jamf.recipe.yaml</string>
         <string>Docker-intel-pkg-upload.jamf.recipe.yaml</string>
         <string>Evernote-pkg-upload.jamf.recipe.yaml</string>
